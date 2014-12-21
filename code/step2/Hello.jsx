@@ -5,7 +5,7 @@ var Hello = React.createClass({
     getDefaultProps: function() {
         return {
             toWhom: "World"
-        }
+        };
     },
 
     render: function() {

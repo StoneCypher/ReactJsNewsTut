@@ -1,3 +1,3 @@
 /** @jsx React.DOM */
 
-React.render( <Hello />, document.body );
+React.render( <Hello toWhom="New York" />, document.body );
