@@ -1,0 +1,19 @@
+/* Open Sans all the things (this will break <tt> and <pre>) */
+* { font-family: Open Sans, sans-serif; }
+
+/* Fullscreen app; ditch framing stuff.  Ensure page is at least full-height. */
+html, body { margin: 0; padding: 0; border: 0; min-height: 100%; }
+
+/* Fix to top or bottom of viewport; extend full width; hard set height */
+#header { position: fixed; top: 0;    left: 0; right: 0; height: 2em; }
+#footer { position: fixed; bottom: 0; left: 0; right: 0; height: 2em; }
+
+/* Let's break up the visual monotony a bit. Also v-center */
+#header, #footer { background-color: #eee; line-height: 185%; padding: 0 0.5em; }
+
+/* Fix to space inbetween #header and #footer */
+#tlist  { position: fixed; top: 2em; bottom: 2em; left: 0; right: 0; width: 100%; }
+
+/* Make the columns tolerable */
+th       { color: #ccc; font-style: italic; }
+th, td   { padding: 0.25em 0.5em; text-align: left; }
